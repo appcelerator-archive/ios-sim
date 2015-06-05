@@ -1,0 +1,6 @@
+build
+*.swp
+.DS_Store
+._*
+ios-sim.xcodeproj/project.xcworkspace
+ios-sim.xcodeproj/xcuserdata
