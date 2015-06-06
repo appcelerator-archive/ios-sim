@@ -66,7 +66,7 @@
 	// if we have an app or a launch-bundle-id, then launch it, otherwise do nothing
 	[self launchApp];
 
-	if (_sim.exitOnStartup || !_sim.appPath || _sim.launchWatchApp) {
+	if (_sim.exitOnStartup || !_sim.appPath || !_sim.launchApp) {
 		// just exit since there's no point sticking around
 		exit(EXIT_SUCCESS);
 	}
